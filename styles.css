@@ -3,6 +3,12 @@
     color: blanchedalmond;
 }
 
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
 h1,
 h2,
 h3 {
@@ -27,13 +33,28 @@ li {
 .title{
     font-size: 36px;
     background-color: blanchedalmond;
+    margin: 20px;
+    padding: 10px;
 }
 
 .recipes-container{
     text-align: center;
+    font-size: 0; /* Remove white space between inline elements */
 }
 
-li.recipes {
+.recipes {
     display: inline-block;
+    text-align: center;
+    border: dotted blanchedalmond;
+    padding: 10px;
+}
+
+
+
+.recipes-container li {
+    font-size: 16px; /* Reset font size for links */
+    text-decoration: none; /* Remove underline */
+    padding: 10px;
+    border: dotted blanchedalmond;
 }
 
