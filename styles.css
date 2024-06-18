@@ -23,3 +23,17 @@ li {
     text-align: left;
     margin-left: 40px;
 }
+
+.title{
+    font-size: 36px;
+    background-color: blanchedalmond;
+}
+
+.recipes-container{
+    text-align: center;
+}
+
+li.recipes {
+    display: inline-block;
+}
+
