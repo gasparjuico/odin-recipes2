@@ -38,13 +38,11 @@ li {
 }
 
 .recipes-container{
-    text-align: center;
-    font-size: 0; /* Remove white space between inline elements */
+    display: flex;
+    justify-content: center;
 }
 
 .recipes {
-    display: inline-block;
-    text-align: center;
     border: dotted blanchedalmond;
     padding: 10px;
 }
@@ -52,8 +50,6 @@ li {
 
 
 .recipes-container li {
-    font-size: 16px; /* Reset font size for links */
-    text-decoration: none; /* Remove underline */
     padding: 10px;
     border: dotted blanchedalmond;
 }
